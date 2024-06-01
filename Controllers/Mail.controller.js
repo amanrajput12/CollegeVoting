@@ -14,7 +14,7 @@ export const mailController = async(req,res)=>{
             })
             await Token.findByIdAndDelete(token._id)
 {/* <a href="http://localhost:5173/">click here</a> */}
-            res.send(`Email verifed success, now login again to proceed or <a href="http://localhost:5173/">click here</a>`)
+            res.send(`Email verifed success, now login again to proceed or <a href="https://votingappqrscanner.netlify.app/">click here</a>`)
         }
     } catch (error) {
         console.log("error on email route",error.message);
