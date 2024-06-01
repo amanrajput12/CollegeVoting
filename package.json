@@ -6,6 +6,7 @@
   "type": "module",
   "scripts": {
     "start": "node App.js"
+   
   },
   "author": "",
   "license": "ISC",
@@ -17,5 +18,10 @@
     "express": "^4.19.1",
     "mongoose": "^8.2.2",
     "nodemailer": "^6.9.13"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.24.6",
+    "@babel/core": "^7.24.6",
+    "@babel/preset-env": "^7.24.6"
   }
 }
