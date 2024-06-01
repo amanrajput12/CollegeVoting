@@ -1,17 +1,18 @@
-import nodemailer from "nodemailer"
-// import { username,password } from "./Mydata.js";
-
-const  password=''
-const username = ''
-
 import dotenv from "dotenv"
 dotenv.config()
+import nodemailer from "nodemailer"
 
+
+const username = process.env.EMAIL
+const password = process.env.PASSWORD
+
+console.log("hello",process.env.EMAIL);
+console.log("username",username,password);
 
 
 const verifymail = async(email,data,mailtext,mailsubject)=>{
     try {
-       console.log(username,password);
+      
         const transporter = nodemailer.createTransport({
     service:'gmail',
     host: "smtp.gmail.com",

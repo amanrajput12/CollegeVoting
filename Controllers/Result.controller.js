@@ -1,6 +1,6 @@
 
 import Result from "../Models/Result.Schema.js";
-import verifymail from "../Utils/Mailsend.js";
+import verifymail from "../mailsend.js";
 
 
 export const resultAdd = async(req,res)=>{

@@ -3,7 +3,7 @@ import { User } from "../Models/Login.Schema.js";
 import bcryptjs from "bcryptjs"
 import Token from "../Models/Token.Schema.js";
 import crypto from "crypto"
-import verifymail from "../Utils/Mailsend.js";
+import verifymail from "../mailsend.js";
 
 
 
