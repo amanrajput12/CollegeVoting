@@ -6,8 +6,8 @@ import cookieParser from "cookie-parser";
 import { votingroute } from "./Routes/Voting.route.js";
 import {resultrouter} from "./Routes/Result.route.js";
 import cors from "cors"
-app.use(cors())
 const app = express()
+app.use(cors())
 dotenv.config()
 console.log(process.env.MONGODB_URI);
 connectDb()
