@@ -5,7 +5,7 @@
   "main": "App.js",
   "type": "module",
   "scripts": {
-    "start": "node App.js"
+    "start": "nodemon App.js"
    
   },
   "author": "",

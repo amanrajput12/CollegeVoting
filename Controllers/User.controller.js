@@ -33,7 +33,7 @@ export const registerUser = async function(req, res) {
         })
            await token.save()
            console.log(" get the token ",token);
-         const link = `http://localhost:4000/v1/confirm/${token.token}`
+         const link = `https://votingapplication-sqe5.onrender.com/v1/confirm/${token.token}`
       const data =`<div>
         <h2>Thank you for registering with us! To complete the registration process and activate your account, please verify your email address by clicking the link below:</h2>
         <h1>
